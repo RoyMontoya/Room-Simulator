@@ -3,3 +3,11 @@
     width: 100%;
     height: 750px;
 }
+
+.shadow-box {
+    background: #000000;
+    opacity: 0.8;
+    width: auto;
+    height: 850px;
+    display: block;
+}

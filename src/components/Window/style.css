@@ -1,0 +1,7 @@
+.window-box {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+}

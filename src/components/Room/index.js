@@ -3,6 +3,7 @@ import LightPanel from "../LightPanel";
 import Lamp from "../Lamp";
 import Baseboard from "../BaseBoard";
 import Door from "../Door";
+import Window from "../Window";
 import "./style.css";
 
 const Room = () => {
@@ -18,6 +19,8 @@ const Room = () => {
       <Lamp />
       <Baseboard />
       <Door />
+      <Window />
+      {!isLightsOn ? <div className="shadow-box" /> : null}
       <LightPanel isLightsOn={isLightsOn} toggleLight={toggleLight} />
     </div>
   );
