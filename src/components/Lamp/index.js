@@ -1,7 +1,8 @@
 import React from "react";
+import Bulb from "./Bulb";
 import "./style.css";
 
-const Lamp = () => (
+const Lamp = ({ isLightsOn = true }) => (
   <div className="lamp-box">
     <svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
       <g>
@@ -84,16 +85,7 @@ const Lamp = () => (
           strokeWidth="1.5"
           fill="#4C261D"
         />
-        <ellipse
-          ry="28"
-          rx="33"
-          id="svg_10"
-          cy="237.453125"
-          cx="253.5"
-          strokeWidth="1.5"
-          stroke="#0f0f00"
-          fill="#FFFF91"
-        />
+        <Bulb isLightsOn={isLightsOn} />
       </g>
     </svg>
   </div>

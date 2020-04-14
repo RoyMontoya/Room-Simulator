@@ -10,13 +10,12 @@ const Room = () => {
   const [isLightsOn, setLightOn] = useState(true);
 
   const toggleLight = () => {
-    console.log(isLightsOn);
     return setLightOn(!isLightsOn);
   };
 
   return (
     <div className="room-box">
-      <Lamp />
+      <Lamp isLightsOn={isLightsOn} />
       <Baseboard />
       <Door />
       <Window />
