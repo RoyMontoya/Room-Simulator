@@ -1,19 +1,17 @@
 import React from "react";
-import "./style.css";
 import Switch from "@material-ui/core/Switch";
+import "./style.css";
 
-const LightPanel = props => {
-  return (
-    <div className="light-panel-box">
-      <div className="light-panel-switch">
-        <Switch
-          color="default"
-          checked={props.isLightsOn}
-          onChange={props.toggleLight}
-        />
-      </div>
+const LightPanel = props => (
+  <div className="light-panel-box">
+    <div className="light-panel-switch">
+      <Switch
+        color="default"
+        checked={props.isLightsOn}
+        onChange={props.toggleLight}
+      />
     </div>
-  );
-};
+  </div>
+);
 
 export default LightPanel;

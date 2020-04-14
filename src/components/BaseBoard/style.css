@@ -1,0 +1,20 @@
+.baseboard-box {
+    background: white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    border: 2px solid #000000;
+}
+
+.baseboard-decorator {
+    background: white;
+    -webkit-box-shadow: 0 0 5px 5px #888888 inset;
+    -moz-box-shadow: 0 0 5px 5px #888888 inset;
+    box-shadow: 0 0 5px 5px #888888 inset;
+    border: 2px solid #000000;
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}

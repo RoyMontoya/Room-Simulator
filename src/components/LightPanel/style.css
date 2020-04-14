@@ -1,14 +1,17 @@
 .light-panel-box{
-    position: absolute;
     background: white;
     width: 70px;
     height: 100px;
-    float: left;
     -webkit-box-shadow: 0 0 5px 3px #888888 inset;
     -moz-box-shadow: 0 0 5px 3px #888888 inset;
     box-shadow: 0 0 5px 3px #888888 inset;
+    display: flex;
+    position: absolute;
+    left:50px;
+    bottom:150px;
 }
 
 .light-panel-switch {
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+    margin: auto;
 }
